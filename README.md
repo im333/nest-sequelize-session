@@ -1,38 +1,12 @@
-# project
+# nest 测试项目
 
-## Description
+## 实现
 
-shishi
+sequelize 操作数据库
+登录状态保存
 
-## Installation
+## 未实现
 
-```bash
-$ npm install
-```
-
-## Running the app
-
-```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-npm run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
+测试
+异常捕获
+日志
