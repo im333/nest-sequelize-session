@@ -39,7 +39,7 @@ export class UserController {
 
   @Get('users/:id')
   public async getUser(@Response() res, @Param() param, @Session() session) {
-    session.aaa = 1;
+    session.userId = 1;
 
     const users = await this.UserService.findById(param.id);
     return res.status(HttpStatus.OK).json(session.id);
